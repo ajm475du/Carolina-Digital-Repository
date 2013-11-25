@@ -105,19 +105,19 @@
 	</scm>
 
 	<modules>
-		<module>access</module>
+		<module>metadata</module><!-- comment out xml-apis:xml-apis:2.9.1 -->
 		<module>security</module>
-		<module>fcrepo-cdr-fesl</module>
 		<module>fcrepo-clients</module>
-		<module>fcrepo-irods-storage</module>
-		<module>metadata</module>
-		<module>persistence</module>
-		<module>services</module>
-		<module>solr-ingest</module>
+		<module>fcrepo-cdr-fesl</module>
+		<module>persistence</module><!-- turned off VirusScanFilter! edu.unc.lib.cdr:clamavj:jar:0.3 -->
 		<module>solr-search</module>
-		<module>sword-server</module>
-		<module>admin</module>
 		<module>access-common</module>
+		<module>access</module>
+		<module>admin</module>
+		<module>solr-ingest</module>
+		<!-- <module>sword-server</module> --><!-- org.swordapp:sword2-server:1.0 ? -->
+		<!-- <module>services</module> --><!-- sword-server -->
+		<!-- <module>fcrepo-irods-storage</module> --><!-- edu.unc.lib.cdr:staging-areas:jar:0.0.1-SNAPSHOT ? woodstox:wstx-asl:3.0.0 ? -->
 	</modules>
 
 	<reporting>

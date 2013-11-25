@@ -10,3 +10,4 @@
 /.settings
 /*/src/jaxb
 .DS_Store
+/bin
